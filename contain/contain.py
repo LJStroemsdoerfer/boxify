@@ -2,7 +2,6 @@
 import subprocess
 import os
 import sys
-from flask import Flask
 
 # create main class
 class container():
