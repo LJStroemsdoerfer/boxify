@@ -9,8 +9,8 @@ theme:
     accent: deep orange
   icon:
     repo: fontawesome/brands/github-alt
-  logo: img/logo.png
-  favicon: img/logo.png
+  logo: img/logo_new.png
+  favicon: img/logo_new.png
   language: en
 repo_name: till-io/boxify
 repo_url: https://github.com/till-io/boxify
