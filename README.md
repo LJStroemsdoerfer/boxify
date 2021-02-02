@@ -1,1 +1,1 @@
-# contain
+# boxify - smart containerization for Python

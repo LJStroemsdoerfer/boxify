@@ -1,0 +1,48 @@
+site_name: boxify
+site_description: Smart Containerization for Python
+site_url: https://github.com/till-io/boxify
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: deep orange
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/logo.png
+  favicon: img/logo.png
+  language: en
+repo_name: till-io/boxify
+repo_url: https://github.com/till-io/boxify
+edit_uri: ''
+plugins:
+- search
+nav:
+- Home: index.md
+- Getting Started:
+  - content/install.md
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: true
+- markdown_include.include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_div_format ''
+- pymdownx.tabbed
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/till-io/boxify
+extra_css:
+- css/main.css
+extra_javascript:
+- https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js
+- js/main.js
