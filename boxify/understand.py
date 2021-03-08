@@ -115,9 +115,9 @@ class understander:
 
             # raise issue
             raise Exception('There was an issue with comments in script ' + self.script + ', they could not be removed')
-    
-        # return
-        return self
+
+        # return the prepared script
+        return self.script_prepared
 
     # function to extract all classes in use
     def __get_classes(self):
