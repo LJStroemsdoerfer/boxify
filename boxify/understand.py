@@ -84,7 +84,7 @@ class understander:
         try:
 
             # split the script into lines
-            self.script_prepared = re.sub(r'"""[\s\S]*?"""', '', self.script_prepared)
+            self.script_prepared = self.script_prepared.splitlines()
         
         # handle exception
         except:
@@ -266,4 +266,3 @@ class understander:
 
         # return
         return resources_to_include
-
